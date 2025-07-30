@@ -26,8 +26,8 @@ let bigNumber = 50n
 console.log(BigInt(num) + bigNumber)
 
 try {
-  console.log(num + bigNumber); // ❌ This will throw TypeError
+  console.log(num + bigNumber); 
 } catch (error) {
-  console.log("Not possible"); // Log the error message
+  console.log("Not possible"); 
 }
 

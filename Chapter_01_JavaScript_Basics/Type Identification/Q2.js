@@ -38,3 +38,7 @@ const data = [1, "one", true, {}, [], null, undefined, () => {}, Symbol("x")];
 console.log(filterByType(data, "Array"));     // [ [] ]
 console.log(filterByType(data, "Function"));  // [ () => {} ]
 console.log(filterByType(data, "Object"));    // [ {} ]
+console.log(filterByType(data, "Boolean"));   // [ true ]
+console.log(filterByType(data, "Symbol"));    // [ Symbol("x") ]
+console.log(filterByType(data, "String"));    // [ "one" ]
+

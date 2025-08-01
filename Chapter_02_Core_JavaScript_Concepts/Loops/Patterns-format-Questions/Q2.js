@@ -1,4 +1,5 @@
 /*
+2. Left-Aligned Right-Angled Triangle
 
 *
 **

@@ -1,25 +1,25 @@
 /*
-### **5. Simple HTML Card Generator**
 
+### ✅ **Practice Question: Welcome Email Generator**
 🧠 **Task:**
-Write a function that generates an HTML string using data (name and description).
-👉 *Return HTML like:*
+Create a function called `generateEmail` that takes three arguments:
 
-```html
-<div class="card">
-  <h2>Ayush</h2>
-  <p>Web Developer</p>
-</div>
-```
+* `name` (string)
+* `course` (string)
+* `date` (string)
 
-```js
-function createCard(name, desc) {
-  return `
-    <div class="card">
-      <h2>${name}</h2>
-      <p>${desc}</p>
-    </div>
-  `;
-}
+The function should return a welcome message like this:
+**"Hello Ayush, your course 'JavaScript Mastery' starts on 5th August. Best of luck!"**
+
+### 🔁 **Example:**
+
+generateEmail("Ayush", "JavaScript Mastery", "5th August");
+🟢 **Output:**  "Hello Ayush, your course 'JavaScript Mastery' starts on 5th August. Best of luck!"
 
 */
+
+let generateEmail = (name, course, date) => {
+  return `Hello ${name}, your course '${course}' starts on ${date}. Best of luck!`;
+};
+
+console.log(generateEmail("Ayush", "JavaScript Mastery", "5th August"));

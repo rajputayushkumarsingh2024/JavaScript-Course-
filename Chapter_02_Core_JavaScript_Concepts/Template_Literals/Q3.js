@@ -10,3 +10,5 @@ Create a function that accepts a student name, subject, and marks, and returns:
 function reportCard(name, subject, marks) {
   return `Student: ${name} | Subject: ${subject} | Marks: ${marks}`;
 }
+
+console.log(reportCard("Ayush", "Math", 92))

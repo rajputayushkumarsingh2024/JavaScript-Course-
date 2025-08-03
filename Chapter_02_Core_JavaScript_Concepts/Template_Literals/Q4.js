@@ -11,3 +11,6 @@ Create a function that constructs a file path from folder and filename:
 function filePath(user, folder, fileName) {
   return `C:/Users/${user}/${folder}/${fileName}`;
 }
+
+console.log(filePath("Ayush", "Documents", "file.txt"));
+

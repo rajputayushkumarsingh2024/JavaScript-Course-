@@ -12,3 +12,10 @@ Use a `for...in` loop to print index and corresponding color.
 2: Blue
 
 */
+
+let colors = ["Red", "Green", "Blue"];
+
+for(let index in colors){
+  console.log(`${index} : ${colors[index]}`)
+}
+

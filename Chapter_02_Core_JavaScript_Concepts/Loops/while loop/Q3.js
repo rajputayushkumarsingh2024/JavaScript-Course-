@@ -15,6 +15,13 @@ let num = 12345
 let number = num.toString().split('').map(Number)
 let sum = 0
 
+// console.log(num.toString())
+// console.log(typeof num)
+// console.log(typeof num.toString())
+// console.log(num.toString().split(''))
+// console.log(num.toString().split('').map(Number))
+
+
 while(i < number.length){
   sum = sum + number[i]
   i++

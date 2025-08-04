@@ -9,15 +9,17 @@ Use a `while` loop to reverse a given number `4567` and print it.
 
 */
 
-
 let num = 4567;
-let number = num.toString().split('');
-let i = number.length - 1;
-let reverseNum = "";
+let str = num.toString()
 
-while (i >= 0) {
-  reverseNum += number[i];
-  i--;
+// console.log(num.toString())
+// console.log(typeof num.toString())
+
+let i = str.length-1;
+let nStr = ""
+while(i>=0){
+  nStr += str[i]
+  i--
 }
+console.log(nStr)
 
-console.log(Number(reverseNum)); // ✅ Output: 7654

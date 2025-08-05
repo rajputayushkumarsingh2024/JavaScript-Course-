@@ -1,5 +1,5 @@
 /*
-### 🔸 Q6. Combine Multiple Objects with Some Overlapping Keys
+### 🔸 Q11. Combine Multiple Objects with Some Overlapping Keys
 
 **Task:**
 Combine 3 objects using spread operator. If keys overlap, the last one should win.

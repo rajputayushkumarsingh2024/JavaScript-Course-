@@ -1,5 +1,5 @@
 /*
-#### 🔹 Q3. Remove Duplicate Characters from a String
+#### 🔹 Q14. Remove Duplicate Characters from a String
 
 **Task:** Use spread and `Set` to remove duplicates from `"aabbccddeeff"`.
 **Expected Output:** `"abcdef"`

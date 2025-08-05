@@ -1,5 +1,5 @@
 /*
-#### 🔹 Q2. Merge Two Strings Using Spread
+#### 🔹 Q13. Merge Two Strings Using Spread
 
 **Task:** Use the spread operator to merge two strings `"Hi"` and `"There"` into an array.
 **Expected Output:** `['H', 'i', 'T', 'h', 'e', 'r', 'e']`

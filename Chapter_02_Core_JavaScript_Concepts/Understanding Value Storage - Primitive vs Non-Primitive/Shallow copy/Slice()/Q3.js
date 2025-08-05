@@ -1,5 +1,5 @@
 /*
-### 🔸 **Q1. Copy Without First and Last Item**
+### 🔸 **Q3. Copy Without First and Last Item**
 
 🧠 **Task:**
 Write a function `copyMiddle` that returns a **shallow copy** of the array **excluding the first and last item**, using `slice()`.

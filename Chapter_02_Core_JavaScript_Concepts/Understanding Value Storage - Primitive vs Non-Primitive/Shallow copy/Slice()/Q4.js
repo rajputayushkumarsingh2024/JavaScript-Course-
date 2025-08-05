@@ -1,5 +1,5 @@
 /*
-### 🔸 **Q2. Shallow Copy a Portion by Index**
+### 🔸 **Q4. Shallow Copy a Portion by Index**
 
 🧠 **Task:**
 Write a function `copyFromIndex` that takes an array, a `startIndex`, and an `endIndex`, and returns a **shallow copy** of that portion using `slice()`.

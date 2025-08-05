@@ -18,4 +18,15 @@ cloneWithoutMiddle([10, 20, 30, 40, 50])
 
 */
 
+let cloneWithoutMiddle = (arr) => {
+  let mid = Math.floor(arr.length / 2);
 
+  let leftPart = arr.slice(0, mid);     
+  let rightPart = arr.slice(mid + 1); 
+
+  return [...leftPart, ...rightPart]; 
+}
+
+console.log(cloneWithoutMiddle([10, 20, 30, 40, 50]));
+console.log(cloneWithoutMiddle([10, 20, 30, 40, 50, 60, 70]));
+console.log(cloneWithoutMiddle([10, 20, 30, 40, 50, 60]));

@@ -1,5 +1,5 @@
 /*
-### 🔸 Q2. Merge Two Objects
+### 🔸 Q8. Merge Two Objects
 
 **Task:**
 Merge two objects using the spread operator.

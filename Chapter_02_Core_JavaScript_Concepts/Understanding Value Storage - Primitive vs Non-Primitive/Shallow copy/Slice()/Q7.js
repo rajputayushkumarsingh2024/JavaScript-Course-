@@ -1,5 +1,5 @@
 /*
-### ✅ Q2. Slice Without Affecting Length
+### ✅ Q7. Slice Without Affecting Length
 
 **Task:**
 Create a shallow copy using `slice()` of the first two elements in the array below.
@@ -22,7 +22,7 @@ const arr = [
   { id: 3 }
 ];
 
-console.log(arr)
+console.log("Orginal Array = ", arr)
 
 let copiedArr = arr.slice(0, 2);
-console.log(copiedArr)
+console.log("Copied Array = ", copiedArr)

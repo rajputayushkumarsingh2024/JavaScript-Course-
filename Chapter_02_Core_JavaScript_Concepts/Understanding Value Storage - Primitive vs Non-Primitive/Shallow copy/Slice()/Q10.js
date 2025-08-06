@@ -33,9 +33,13 @@ const arr = [
 
 let cloneWithoutMiddle = (arr) => {
     let mid = Math.floor(arr.length / 2);
+    // console.log(mid)
 
   let leftPart = arr.slice(0, mid);     
+  // console.log(leftPart)
+
   let rightPart = arr.slice(mid + 1); 
+  // console.log(rightPart)
 
   console.log([...leftPart, ...rightPart])
 }

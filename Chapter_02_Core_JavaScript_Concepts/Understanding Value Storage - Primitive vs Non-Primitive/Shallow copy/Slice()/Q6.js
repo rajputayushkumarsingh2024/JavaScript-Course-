@@ -3,7 +3,7 @@ Perfect, Ayush! Here's a **rewritten version of Q1** where **you have to write t
 
 ---
 
-### ✅ **Q1. Write Code to Show Shallow Copy Effect using `slice()`**
+### ✅ **Q6. Write Code to Show Shallow Copy Effect using `slice()`**
 
 🧠 **Task:**
 You are given an array of objects.
@@ -27,8 +27,8 @@ let copiedArr = originalArray.slice()
 
 copiedArr[0].name = "Shalu"
 
-console.log(originalArray)
-console.log(copiedArr)
+console.log("Orignal Array = ", originalArray)
+console.log("Copied Array = ", copiedArr)
 
 
 /*

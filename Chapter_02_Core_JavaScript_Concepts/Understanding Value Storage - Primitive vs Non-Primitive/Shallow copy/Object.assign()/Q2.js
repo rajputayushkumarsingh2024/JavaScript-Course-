@@ -1,5 +1,5 @@
 /*
-🔸 Q1. Clone and Update Age
+🔸 Q2. Clone and Update Age
 🧠 Task:
 Write a function called cloneAndUpdateAge that takes an object with properties name and age as input.
 The function should return a new shallow-copied object where the age is updated to 21.

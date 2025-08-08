@@ -24,8 +24,11 @@ cloneAndChangeName({ name: "Ayush", age: 19 });
 let cloneAndChangeName = (obj) => {
   let copiedObj = Object.assign({}, obj)
   copiedObj.name = "Shalu"
-  console.log(copiedObj)
+  return copiedObj
 }
 
-cloneAndChangeName({ name: "Ayush", age: 19 });
+let originalObj = { name: "Ayush", age: 19 };
+let copiedObj = cloneAndChangeName(originalObj);
 
+console.log("Original Object =", originalObj);
+console.log("Copied Object   =", copiedObj);
